@@ -1,0 +1,17 @@
+#puzzle{
+    width: 450px;
+    height: 450px;
+}
+
+#puzzle input{
+    width: 50px; /*so height of puzzle is gonna have 50*9=450px */
+    height: 50px;
+    /* now we are accounting for all these inputs little tiny borders which is really messing with our styling so below 3 lines of code will solve this*/
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px solid grey ;
+} 
+
+.odd-section {
+    background-color: lightgray;
+}
